@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> &mdash; POS Jam – облачная касса и учет в ресторанах для Windows и Android</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/header-v6.css">
+    <link rel="stylesheet" href="/assets/css/footer-v1.css">
+    <link rel="stylesheet" href="/assets/css/dark.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+    </head>
+<body class="header-fixed">
+    <div class="wrapper">
+        <div class="header-v6 header-white-transparent header-sticky header-fixed-shrink">
+            <div class="navbar mega-menu" role="navigation">
+                <div class="container">
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand">
+                            <a href="/">
+                                <img class="default-logo" src="/assets/img/logo.png" alt="Logo">
+                                <img class="shrink-logo" src="/assets/img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--div class="pull-right phone">
+                        044 383-52-00
+                    </div-->
+                    <div class="pull-right languages">
+                        <div class="dropdown">
+                            <a id="lang" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Рус <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="lang">
+                                <li><a href="/ua">Українська</a></li>                            </ul>
+                        </div>
+                    </div>
+                    <div class="pull-right try-free">
+                        <a href="http://ua1.posjam.com/">Кабинет</a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav">
+                                <li class="prices"><a href="/ru/prices/" title="PosJam цены">Цены</a></li>
+                                <li class="support"><a href="/ru/support/" title="Документация и вопросы">Поддержка</a></li>
+                                <!--li class="equipment"><a href="/ru/equipment/" title="Оборудование">Оборудование</a></li-->
+                                <li class="demo"><a href="/ru/demo/" title="Демо версия" onClick="ga('send', 'event', 'Lead', 'Demo');">Демо версия</a></li>
+                                <!--li class="contacts"><a href="/ru/contacts/" title="Контакты">Контакты</a></li-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-v1">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 md-margin-bottom-40">
+                            <a href="/"><img id="logo-footer" class="footer-logo" src="/assets/img/logo-white.png" alt=""></a>
+                            <p>Учет для ресторанов и кафе. Терминал для официанта. Программное обеспечение для касс.</p>
+                            <p><a href='https://play.google.com/store/apps/details?id=com.posjam.terminalapp&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Доступно на Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/ru_badge_web_generic.png' width='150' /></a></p>
+                        </div>
+                        <div class="col-md-3 col-md-offset-3 md-margin-bottom-40">
+                            <div class="headline"><h2>О нас</h2></div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="/ru/about/">О проекте</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="https://posjam.s3.amazonaws.com/promo.pdf" target="_blank">Презентация</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="/ru/support/">Поддержка</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="/ru/contacts/">Контакты</a><i class="fa fa-angle-right"></i></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 map-img md-margin-bottom-40">
+                            <div class="headline"><h2>Свяжитесь с нами</h2></div>
+                            <address class="md-margin-bottom-40">
+                                +380 44 383-52-00<br />
+                                <a href="mailto:info@posjam.com" class="">info@posjam.com</a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>2017 &copy; POS Jam. Система автоматизации для ресторанов</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="footer-socials list-inline">
+                                <li>
+                                    <a href="https://www.facebook.com/POSJamUA" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/assets/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/jquery/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+        <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+        });
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-80756559-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter38489440 = new Ya.Metrika({ id:38489440, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/38489440" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'kK6fX4clrg';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+<!-- BEGIN cloudim code [Отдел продаж] {literal} -->
+<!--script type="text/javascript" charset="utf-8">document.write(unescape("%3Cdiv id='cloudim_widget'%3E%3Cscript src='//static.cloudim.ru/js/chat.js' type='text/javascript'%3E%3C/script%3E%3C/div%3E"));</script> <div id="cloudim_cr" style="position:absolute; left:-9999px;"><a target="_blank" href="http://cloudim.ru/">Cloudim</a> - онлайн консультант для сайта бесплатно.</div>
+<script type="text/javascript" charset="utf-8">
+Cloudim.Chat.init({uid:23324, group:10070});
+</script-->
+<!-- {/literal} END cloudim code -->
+
+</body>
+</html>
+
